@@ -1,0 +1,123 @@
+$border: black 1px solid;
+$button_width: 40px;
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #312929;
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 800px;
+    height: 100vh;
+    background-color: #bac7e0;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+
+    &-button {
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+    }
+        
+}
+
+.counters {
+    display: flex;
+
+    &-counter {
+        width: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 5px;
+        padding: 5px;       
+    }
+}
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    &-item {
+        display: flex;
+        border: 1px solid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-item3 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    &-item4 {
+        width: 75px;
+        height: 75px;
+    }
+
+    &-item5 {
+        width: 60px;
+        height: 60px;
+    }
+
+    &-item6 {
+        width: 50px;
+        height: 50px;
+    }
+
+    &-item7 {
+        width: 42px;
+        height: 42px;
+    }
+
+    &-item8 {
+        width: 37.5px;
+        height: 37.5px;
+    }
+}
+
+.about {
+    display: flex;
+    margin: 5px;
+}
+
+.otherSizes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &-value {
+        margin: 8px;
+        padding: 0 5px;
+        border: 1px solid;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
+.time-value {
+    margin-left: 10px;
+    min-width: 50px;
+}
